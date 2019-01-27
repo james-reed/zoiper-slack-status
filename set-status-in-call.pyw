@@ -6,7 +6,7 @@ arguments = sys.argv
 text = (f'Currently in a call with {arguments[1]}')
 url = "https://slack.com/api/users.profile.set"
 params = {
-        'token': 'YOUR_SLACK_API_TOKEN_GOES_HERE',
+        'token': 'YOUR_SLACK_TOKEN_GOES_HERE',
         'profile': json.dumps(
             {
                 "status_text": text,
